@@ -91,5 +91,4 @@ public interface OrderBookManager {
      */
     List<Order> getOrdersAtLevel(String instrument, Side side, long price );
 
-
 }
